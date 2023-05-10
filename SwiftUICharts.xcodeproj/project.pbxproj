@@ -19,6 +19,7 @@
 		6EF81F132A0B545600198D38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F122A0B545600198D38 /* Extensions.swift */; };
 		6EF81F152A0B630D00198D38 /* CombinedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */; };
 		6EF81F172A0B69C500198D38 /* PointChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F162A0B69C500198D38 /* PointChart.swift */; };
+		6EF81F192A0B6C6600198D38 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F182A0B6C6600198D38 /* LineChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		6EF81F122A0B545600198D38 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedBarChart.swift; sourceTree = "<group>"; };
 		6EF81F162A0B69C500198D38 /* PointChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointChart.swift; sourceTree = "<group>"; };
+		6EF81F182A0B6C6600198D38 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */,
 				6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */,
 				6EF81F162A0B69C500198D38 /* PointChart.swift */,
+				6EF81F182A0B6C6600198D38 /* LineChart.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				6EF81F172A0B69C500198D38 /* PointChart.swift in Sources */,
 				6EF81F152A0B630D00198D38 /* CombinedBarChart.swift in Sources */,
 				6E5DCF562A0A9A8500824F95 /* SimpleBarChart.swift in Sources */,
+				6EF81F192A0B6C6600198D38 /* LineChart.swift in Sources */,
 				6EF81F102A0B512300198D38 /* BarChartDataSwap.swift in Sources */,
 				6E2022DA2A096C4C0051F519 /* ContentView.swift in Sources */,
 				6E2022D82A096C4C0051F519 /* SwiftUIChartsApp.swift in Sources */,

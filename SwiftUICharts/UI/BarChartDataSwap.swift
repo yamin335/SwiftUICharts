@@ -20,23 +20,23 @@ struct WorkerAttendance: Identifiable {
 }
 
 let erlangenWarehouseData: [WorkerAttendance] = [
-    .init(day: "2023-05-08".toDate().shortDay(), workers: 150),
-    .init(day: "2023-05-09".toDate().shortDay(), workers: 120),
-    .init(day: "2023-05-10".toDate().shortDay(), workers: 160),
-    .init(day: "2023-05-11".toDate().shortDay(), workers: 110),
-    .init(day: "2023-05-12".toDate().shortDay(), workers: 90),
-    .init(day: "2023-05-13".toDate().shortDay(), workers: 100),
-    .init(day: "2023-05-14".toDate().shortDay(), workers: 120)
+    .init(day: "2023-05-08".toDate().shortDay(), workers: 133),
+    .init(day: "2023-05-09".toDate().shortDay(), workers: 122),
+    .init(day: "2023-05-10".toDate().shortDay(), workers: 166),
+    .init(day: "2023-05-11".toDate().shortDay(), workers: 111),
+    .init(day: "2023-05-12".toDate().shortDay(), workers: 99),
+    .init(day: "2023-05-13".toDate().shortDay(), workers: 133),
+    .init(day: "2023-05-14".toDate().shortDay(), workers: 88)
 ]
 
 let nurnbergWarehouseData: [WorkerAttendance] = [
-    .init(day: "2023-05-08".toDate().shortDay(), workers: 180),
-    .init(day: "2023-05-09".toDate().shortDay(), workers: 100),
-    .init(day: "2023-05-10".toDate().shortDay(), workers: 160),
-    .init(day: "2023-05-11".toDate().shortDay(), workers: 110),
-    .init(day: "2023-05-12".toDate().shortDay(), workers: 140),
-    .init(day: "2023-05-13".toDate().shortDay(), workers: 100),
-    .init(day: "2023-05-14".toDate().shortDay(), workers: 190)
+    .init(day: "2023-05-08".toDate().shortDay(), workers: 188),
+    .init(day: "2023-05-09".toDate().shortDay(), workers: 166),
+    .init(day: "2023-05-10".toDate().shortDay(), workers: 177),
+    .init(day: "2023-05-11".toDate().shortDay(), workers: 155),
+    .init(day: "2023-05-12".toDate().shortDay(), workers: 144),
+    .init(day: "2023-05-13".toDate().shortDay(), workers: 199),
+    .init(day: "2023-05-14".toDate().shortDay(), workers: 222)
 ]
 
 struct BarChartDataSwap: View {

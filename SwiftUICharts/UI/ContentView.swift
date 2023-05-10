@@ -54,6 +54,12 @@ struct ContentView: View {
                 } label: {
                     MenuButton(icon: "chart.dots.scatter", label: "Point chart")
                 }
+                
+                NavigationLink {
+                    LineChart()
+                } label: {
+                    MenuButton(icon: "chart.xyaxis.line", label: "Line chart")
+                }
                 Spacer()
             }
             .navigationTitle("SwiftUI Charts")

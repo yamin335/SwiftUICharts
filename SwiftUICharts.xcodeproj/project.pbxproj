@@ -17,6 +17,7 @@
 		6E5DCF562A0A9A8500824F95 /* SimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */; };
 		6EF81F102A0B512300198D38 /* BarChartDataSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */; };
 		6EF81F132A0B545600198D38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F122A0B545600198D38 /* Extensions.swift */; };
+		6EF81F152A0B630D00198D38 /* CombinedBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBarChart.swift; sourceTree = "<group>"; };
 		6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataSwap.swift; sourceTree = "<group>"; };
 		6EF81F122A0B545600198D38 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedBarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				6E2022D92A096C4C0051F519 /* ContentView.swift */,
 				6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */,
 				6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */,
+				6EF81F142A0B630D00198D38 /* CombinedBarChart.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF81F132A0B545600198D38 /* Extensions.swift in Sources */,
+				6EF81F152A0B630D00198D38 /* CombinedBarChart.swift in Sources */,
 				6E5DCF562A0A9A8500824F95 /* SimpleBarChart.swift in Sources */,
 				6EF81F102A0B512300198D38 /* BarChartDataSwap.swift in Sources */,
 				6E2022DA2A096C4C0051F519 /* ContentView.swift in Sources */,

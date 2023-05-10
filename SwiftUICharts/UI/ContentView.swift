@@ -42,6 +42,12 @@ struct ContentView: View {
                 } label: {
                     MenuButton(icon: "arrow.left.arrow.right.square", label: "Bar chart data swap")
                 }
+                
+                NavigationLink {
+                    CombinedBarChart()
+                } label: {
+                    MenuButton(icon: "arrow.triangle.merge", label: "Combined bar chart")
+                }
                 Spacer()
             }
             .navigationTitle("SwiftUI Charts")

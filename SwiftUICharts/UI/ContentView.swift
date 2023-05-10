@@ -7,6 +7,25 @@
 
 import SwiftUI
 
+struct MenuButton: View {
+    let icon: String
+    let label: String
+    
+    var body: some View {
+        HStack {
+            Image(systemName: icon)
+                .foregroundColor(Color("blue2"))
+            
+            Text(label)
+                .foregroundColor(Color("textColor3"))
+                .font(.system(size: 20))
+        }
+        .padding(10)
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .background(RoundedRectangle(cornerRadius: 5, style: .circular).fill(Color("gray4")))
+    }
+}
+
 struct ContentView: View {
     
     var body: some View {
@@ -15,17 +34,13 @@ struct ContentView: View {
                 NavigationLink {
                     SimpleBarChart()
                 } label: {
-                    HStack {
-                        Image(systemName: "chart.bar.xaxis")
-                            .foregroundColor(Color("blue2"))
-                        
-                        Text("Bar chart")
-                            .foregroundColor(Color("textColor3"))
-                            .font(.system(size: 20))
-                    }
-                    .padding(10)
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .background(RoundedRectangle(cornerRadius: 5, style: .circular).fill(Color("gray4")))
+                    MenuButton(icon: "chart.bar.xaxis", label: "Bar chart")
+                }
+                
+                NavigationLink {
+                    BarChartDataSwap()
+                } label: {
+                    MenuButton(icon: "arrow.left.arrow.right.square", label: "Bar chart data swap")
                 }
                 Spacer()
             }

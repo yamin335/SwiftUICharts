@@ -15,6 +15,8 @@
 		6E2022F32A096C4F0051F519 /* SwiftUIChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2022F22A096C4F0051F519 /* SwiftUIChartsUITests.swift */; };
 		6E2022F52A096C4F0051F519 /* SwiftUIChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2022F42A096C4F0051F519 /* SwiftUIChartsUITestsLaunchTests.swift */; };
 		6E5DCF562A0A9A8500824F95 /* SimpleBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */; };
+		6EF81F102A0B512300198D38 /* BarChartDataSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */; };
+		6EF81F132A0B545600198D38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF81F122A0B545600198D38 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		6E2022F22A096C4F0051F519 /* SwiftUIChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChartsUITests.swift; sourceTree = "<group>"; };
 		6E2022F42A096C4F0051F519 /* SwiftUIChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBarChart.swift; sourceTree = "<group>"; };
+		6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataSwap.swift; sourceTree = "<group>"; };
+		6EF81F122A0B545600198D38 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		6E2022D62A096C4C0051F519 /* SwiftUICharts */ = {
 			isa = PBXGroup;
 			children = (
+				6EF81F112A0B543300198D38 /* Utils */,
 				6E5DCF522A0A974200824F95 /* App */,
 				6E5DCF512A0A971D00824F95 /* UI */,
 				6E2022DB2A096C4F0051F519 /* Assets.xcassets */,
@@ -134,6 +139,7 @@
 			children = (
 				6E2022D92A096C4C0051F519 /* ContentView.swift */,
 				6E5DCF552A0A9A8500824F95 /* SimpleBarChart.swift */,
+				6EF81F0F2A0B512300198D38 /* BarChartDataSwap.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -144,6 +150,14 @@
 				6E2022D72A096C4C0051F519 /* SwiftUIChartsApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		6EF81F112A0B543300198D38 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6EF81F122A0B545600198D38 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF81F132A0B545600198D38 /* Extensions.swift in Sources */,
 				6E5DCF562A0A9A8500824F95 /* SimpleBarChart.swift in Sources */,
+				6EF81F102A0B512300198D38 /* BarChartDataSwap.swift in Sources */,
 				6E2022DA2A096C4C0051F519 /* ContentView.swift in Sources */,
 				6E2022D82A096C4C0051F519 /* SwiftUIChartsApp.swift in Sources */,
 			);

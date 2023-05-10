@@ -31,14 +31,19 @@ struct SimpleBarChart: View {
                         x: .value("Name", snack.name),
                         y: .value("Stock", snack.stock)
                     )
+                    .foregroundStyle(by: .value("Name", snack.name))
+                    .symbol(by: .value("Name", snack.name))
                 } else {
                     BarMark(
                         x: .value("Stock", snack.stock),
                         y: .value("Name", snack.name)
                     )
+                    .foregroundStyle(by: .value("Name", snack.name))
+                    .symbol(by: .value("Name", snack.name))
                 }
             }.padding(5)
         }
+        .navigationTitle("Simple bar chart")
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {

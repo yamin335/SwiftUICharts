@@ -48,6 +48,12 @@ struct ContentView: View {
                 } label: {
                     MenuButton(icon: "arrow.triangle.merge", label: "Combined bar chart")
                 }
+                
+                NavigationLink {
+                    PointChart()
+                } label: {
+                    MenuButton(icon: "chart.dots.scatter", label: "Point chart")
+                }
                 Spacer()
             }
             .navigationTitle("SwiftUI Charts")
